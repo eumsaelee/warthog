@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.meerkat.apps.MeerkatConfig',
+    'apps.warthog.apps.WarthogConfig',
 ]
 
 MIDDLEWARE = [

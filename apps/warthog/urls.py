@@ -4,7 +4,7 @@ from django.contrib.auth import views as auth_views
 from . import views
 
 
-app_name = 'meerkat'
+app_name = 'warthog'
 
 urlpatterns = [
     path('', views.home, name='home'),

@@ -12,7 +12,7 @@ from django.core.asgi import get_asgi_application
 from channels.auth import AuthMiddlewareStack
 from channels.routing import ProtocolTypeRouter, URLRouter
 
-import apps.meerkat.routing as routing
+import apps.warthog.routing as routing
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 
